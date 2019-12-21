@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <textarea maxlenght="40" id="intro" :cols="1" rows="1" autofocus></textarea>
+    <textarea maxlenght="40" id="intro" :value="textInput" :cols="textInput.length" rows="1" autofocus></textarea>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: "home",
   data() {
     return {
-      textInput: ""
+      textInput: "H"
     }
   }
 };
