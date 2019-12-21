@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <textarea maxlenght="40" id="intro" :cols="1" rows="1" autofocus></textarea>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "home",
-  components: {
-    HelloWorld
+  data() {
+    return {
+      textInput: ""
+    }
   }
 };
 </script>
+
+<style lang="scss" scoped>
+$primary: #5f97ff;
+$text: #d6d6d6;
+textarea {
+  resize: none;
+  font-size: 6em;
+  caret-color: $primary;
+  border: none;
+  background-color: transparent;
+  color: $text;
+  font-family: "Press Start 2p";
+}
+</style>
