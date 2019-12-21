@@ -9,21 +9,35 @@ export default {};
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Press+Start+2P&display=swap");
 @import "./assets/reset.css";
 
 // Global variables
-$bg: #3d3d3d;
-$text: #d6d6d6;
+$bg: #d6d6d6;
+$text: #3d3d3d;
+body {
+  background-color: $bg;
+}
 
 #app {
-  font-family: "Press Start 2P", "Cutive Mono", "Avenir", Helvetica, Arial,
-    sans-serif;
+  font-family: "Major Mono Display", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $text;
   background-color: $bg;
-  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+@keyframes show {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: $text;
+  }
 }
 </style>
