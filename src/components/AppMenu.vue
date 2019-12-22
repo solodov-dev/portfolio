@@ -27,6 +27,14 @@ export default {
 $text: #3d3d3d;
 $bg: #d6d6d6;
 
+.menu-btn {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 20px;
+}
+
 p {
   position: relative;
   text-align: center;
@@ -45,12 +53,5 @@ nav {
   top: 0;
   width: 100%;
   height: 100vh;
-}
-
-.menu-btn {
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
-  background-color: transparent;
 }
 </style>
