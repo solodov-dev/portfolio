@@ -37,8 +37,22 @@ body {
 a {
   text-decoration: none;
   color: #3d3d3d;
+  position: relative;
 }
 
+a::before {
+  content: "";
+  position: absolute;
+  top: 1em;
+  width: 0;
+  height: 1px;
+  background-color: blueviolet;
+  transition: width 0.4s ease-in;
+}
+
+a:hover::before {
+  width: 100%;
+}
 @keyframes show {
   0% {
     color: transparent;

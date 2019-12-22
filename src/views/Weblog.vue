@@ -1,6 +1,9 @@
 <template>
   <ul>
-    <li v-for="(log, index) in weblog" :key="index">{{ log.body }}</li>
+    <li v-for="(log, date) in weblog" :key="date">
+      <a :href="log.link" :title="`View at ${log.site}`">{{ log.title }}</a>
+      <p>{{ date }}</p>
+    </li>
   </ul>
 </template>
 
@@ -28,6 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 $bg: #d6d6d6;
+
 ul {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
@@ -47,15 +51,14 @@ li:nth-child(odd) {
   border-left: 1px solid blueviolet;
 }
 
-li:nth-child(odd)::before {
-  content: "=";
-  display: inline-block;
-  position: relative;
-  left: -1.65em;
-}
-
 li:nth-child(even) {
   text-align: right;
   border-right: 1px solid blueviolet;
+}
+
+p {
+  color: gray;
+  font-size: 0.8em;
+  padding-top: 1em;
 }
 </style>

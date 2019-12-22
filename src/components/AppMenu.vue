@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="menu-btn" @click="visibility=!visibility">menu</div>
+    <a href="javascript:void(null);" @click="visibility=!visibility">menu</a>
     <nav v-show="visibility" @click="visibility = !visibility">
       <router-link v-for="(page, key) in pages" :key="key" :to="page">{{ page }}</router-link>
     </nav>
@@ -27,12 +27,8 @@ export default {
 $text: #3d3d3d;
 $bg: #d6d6d6;
 
-.menu-btn {
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
-  background-color: transparent;
-  padding: 20px;
+div {
+  margin: 10px auto;
 }
 
 p {

@@ -1,73 +1,76 @@
 {
   "02/07/2019": {
-    "body": "Python internet radio CLI",
-    "link": "https://github.com/solodov-dev/cli-internet-radio"
+    "title": "Python internet radio CLI",
+    "link": "https://github.com/solodov-dev/cli-internet-radio",
+    "site": "github"
   },
   "03/07/2019": {
-    "body": "Learning GIT"
+    "title": "Learning GIT",
+    "link": "Google.com",
+    "site": "google"
   },
   "06/07/2019": {
-    "body": "The Odin Project. Google homepage tutorial",
+    "title": "The Odin Project. Google homepage tutorial",
     "link": "https://github.com/solodov-dev/top-google-homepage"
   },
   "12/07/2019": {
-    "body": "Reading JS algorithms and datastructures",
+    "title": "Reading JS algorithms and datastructures",
     "link": "https://www.goodreads.com/book/show/41188653-javascript-data-structures-and-algorithms?ac=1&from_search=true&qid=LiljsiRjhE&rank=1"
   },
   "23/07/2019": {
-    "body": "The Odin Project. Rock Paper Scissors.",
+    "title": "The Odin Project. Rock Paper Scissors.",
     "link": "https://github.com/solodov-dev/top-rock-paper-scissors"
   },
   "25/07/2919": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2819": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2719": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2619": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2519": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2419": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2319": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2039": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2049": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2059": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2089": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2009": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   },
   "25/07/2079": {
-    "body": "The Odin Project. Etch a Sketch.",
+    "title": "The Odin Project. Etch a Sketch.",
     "link": "https://github.com/solodov-dev/top-etch-a-sketch"
   }
 }
