@@ -1,11 +1,17 @@
 <template>
   <div id="app">
+    <app-menu />
     <router-view />
   </div>
 </template>
 
 <script>
-export default {};
+import AppMenu from "./components/AppMenu";
+export default {
+  components: {
+    appMenu: AppMenu
+  }
+};
 </script>
 
 <style lang="scss">
@@ -14,6 +20,7 @@ export default {};
 // Global variables
 $bg: #d6d6d6;
 $text: #3d3d3d;
+
 body {
   background-color: $bg;
 }

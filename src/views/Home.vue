@@ -1,18 +1,13 @@
 <template>
   <div class="home">
     <p>{{ text }}</p>
-    <menu-btn></menu-btn>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import menuBtn from "@/components/menu-button.vue";
 export default {
   name: "home",
-  components: {
-    menuBtn: menuBtn
-  },
   data() {
     return {
       text: "",
