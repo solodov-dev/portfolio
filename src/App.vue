@@ -32,6 +32,7 @@ body {
   text-align: center;
   color: $text;
   background-color: $bg;
+  line-height: 1.8em;
 }
 
 a {
@@ -43,7 +44,7 @@ a {
 a::before {
   content: "";
   position: absolute;
-  top: 1em;
+  top: 1.5em;
   width: 0;
   height: 1px;
   background-color: blueviolet;

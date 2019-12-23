@@ -3,6 +3,7 @@
     <li v-for="(log, date) in weblog" :key="date">
       <a :href="log.link" :title="`View at ${log.site}`">{{ log.title }}</a>
       <p>{{ date }}</p>
+      <img src="@/assets/polygon.svg" alt="polygon" />
     </li>
   </ul>
 </template>
@@ -39,11 +40,13 @@ ul {
   flex-direction: column;
   max-width: 500px;
   padding: 10px;
+  line-height: 1em;
 }
 
 li {
   border-top: 1px solid blueviolet;
   padding: 20px;
+  padding-bottom: 0;
 }
 
 li:nth-child(odd) {
@@ -51,9 +54,34 @@ li:nth-child(odd) {
   border-left: 1px solid blueviolet;
 }
 
+li:nth-child(odd) > img {
+  position: relative;
+  left: -1.85em;
+  top: -2.9em;
+}
+
 li:nth-child(even) {
   text-align: right;
   border-right: 1px solid blueviolet;
+}
+
+li:nth-child(even) > img {
+  position: relative;
+  left: 1.85em;
+  top: -2.9em;
+}
+
+a:hover ~ img {
+  animation: rotate 2s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 p {
