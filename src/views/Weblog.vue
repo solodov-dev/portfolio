@@ -18,8 +18,14 @@ export default {
     };
   },
   mounted() {
+    let url =
+      document.location.protocol +
+      "//" +
+      document.location.host +
+      "/" +
+      "weblog.json";
     axios
-      .get("http://localhost:8080/weblog.json")
+      .get(url)
       .then(res => {
         this.weblog = res.data;
       })
