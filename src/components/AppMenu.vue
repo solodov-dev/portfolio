@@ -1,9 +1,11 @@
 <template>
   <div>
     <a href="javascript:void(null);" @click="visibility=!visibility">menu</a>
-    <nav v-show="visibility" @click="visibility = !visibility">
-      <router-link v-for="(page, key) in pages" :key="key" :to="page">{{ page }}</router-link>
-    </nav>
+    <transition name="fade">
+      <nav v-show="visibility" @click="visibility = !visibility">
+        <router-link v-for="(page, key) in pages" :key="key" :to="page">{{ page }}</router-link>
+      </nav>
+    </transition>
   </div>
 </template>
 
@@ -49,5 +51,19 @@ nav {
   top: 0;
   width: 100%;
   height: 100vh;
+}
+
+// Animation
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity .8s;
+}
+
+.fade-leave-active {
+  transition: opacity .8s;
+  opacity: 0;
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <app-menu />
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -61,5 +63,13 @@ a:hover::before {
   100% {
     color: $text;
   }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity 1s;
 }
 </style>

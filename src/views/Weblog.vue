@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="(log, date) in weblog" :key="date">
-      <a :href="log.link" :title="`View at ${log.site}`">{{ log.title }}</a>
+      <a :href="log.link" :title="`View at ${log.site}`" target="_blank">{{ log.title }}</a>
       <p>{{ date }}</p>
       <img src="@/assets/polygon.svg" alt="polygon" />
     </li>
