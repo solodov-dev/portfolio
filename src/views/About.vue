@@ -15,9 +15,10 @@
     <p>
       Hello! My name is Andrey Solodov. I build web apps. You can take a look at
       my work
-      <router-link class="text-link" to="/projects">here</router-link> or check out what I am up to now
-      <router-link class="text-link" to="/weblog">here</router-link>. Feel free to contact me via
-      email or telegram.
+      <router-link class="text-link" to="/projects">here</router-link> or check
+      out what I am up to now
+      <router-link class="text-link" to="/weblog">here</router-link>. Feel free
+      to contact me via email or telegram.
     </p>
   </article>
 </template>
@@ -31,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 article {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 1em auto;
   padding: 0 2em;
 }
 
