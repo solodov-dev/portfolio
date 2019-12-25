@@ -1,9 +1,49 @@
 {
-  "": {
-      "title": "",
-      "link": "",
-      "site": ""
+  "25/11/2019": {
+      "title": "My Portfolio website",
+      "link": "https://solodov.dev",
+      "site": "solodov.dev"
     },
+  "24/11/2019": {
+      "title": "Parus Nalchik",
+      "link": "https://parus-nalchik.ru/",
+      "site": "parus-nalchik.ru"
+    },
+  "15/11/2019": {
+      "title": "Read 'PHP 7 Solutions'",
+      "link": "https://www.goodreads.com/book/show/42832484-php-7-solutions",
+      "site": "Goodreads"
+    },
+  "02/11/2019": {
+      "title": "Bookworm - reading list",
+      "link": "https://github.com/solodov-dev/bookworm",
+      "site": "GitHub"
+    },
+  "22/10/2019": {
+      "title": "RAI-IO - online radio player",
+      "link": "https://github.com/solodov-dev/rad-io",
+      "site": "Github"
+    },
+  "06/10/2019": {
+      "title": "TOP - Apple mockup",
+      "link": "https://github.com/solodov-dev/top-apple",
+      "site": "GitHub"
+    },
+  "04/10/2019": {
+      "title": "TOP - NYT mockup",
+      "link": "https://github.com/solodov-dev/top-nyt",
+      "site": "GitHub"
+    },
+  "01/10/2019": {
+      "title": "TOP - HTML Forms",
+      "link": "https://github.com/solodov-dev/top-forms",
+      "site": "GitHub"
+    },
+    "30/09/2019": {
+        "title": "Russia - Interactive Map",
+        "link": "https://github.com/solodov-dev/russia",
+        "site": "GitHub"
+      },
   "16/09/2019": {
       "title": "Read 'You don't know JS: Up & Going'",
       "link": "https://www.goodreads.com/book/show/25136217-you-don-t-know-js",
@@ -81,7 +121,7 @@
     },
   "15/07/2019": {
       "title": "Read 'Learning JS algorithms and data structures'",
-      "link": "https://www.goodreads.com/book/show/39392565-learning-javascript-data-structures-and-algorithms?ac=1&from_search=true&qid=xTRlBpdlbV&rank=5",
+      "link": "https://www.goodreads.com/book/show/39392565-learning-javascript-data-structures-and-algorithms",
       "site": "Goodreads"
     },
   "09/07/2019": {
@@ -96,7 +136,7 @@
     },
   "30/06/2019": {
     "title": "Read 'Learning Web Design'",
-    "link": "https://www.goodreads.com/book/show/40530834-learning-web-design?ac=1&from_search=true&qid=zqg6lUrReu&rank=2",
+    "link": "https://www.goodreads.com/book/show/15808130-learning-web-design",
     "site": "Goodreads"
   },
   "25/06/2019": {
@@ -106,7 +146,7 @@
   },
   "05/06/2019": {
     "title": "Read 'Automate the boring stuff with Python'.",
-    "link": "https://www.goodreads.com/book/show/22514127-automate-the-boring-stuff-with-python?ac=1&from_search=true&qid=3lcbyn8g7l&rank=3",
+    "link": "https://www.goodreads.com/book/show/22514127-automate-the-boring-stuff-with-python",
     "site": "Goodreads"
   }
 }
