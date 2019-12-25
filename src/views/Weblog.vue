@@ -20,12 +20,7 @@ export default {
     };
   },
   mounted() {
-    let url =
-      document.location.protocol +
-      "//" +
-      document.location.host +
-      "/" +
-      "weblog.json";
+    let url = window.location.href.slice(0, -6) + "weblog.json";
     axios
       .get(url)
       .then(res => {
