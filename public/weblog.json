@@ -1,76 +1,112 @@
 {
-  "02/07/2019": {
-    "title": "Python internet radio CLI",
-    "link": "https://github.com/solodov-dev/cli-internet-radio",
-    "site": "github"
-  },
-  "03/07/2019": {
-    "title": "Learning GIT",
-    "link": "Google.com",
-    "site": "google"
-  },
-  "06/07/2019": {
-    "title": "The Odin Project. Google homepage tutorial",
-    "link": "https://github.com/solodov-dev/top-google-homepage"
-  },
-  "12/07/2019": {
-    "title": "Reading JS algorithms and datastructures",
-    "link": "https://www.goodreads.com/book/show/41188653-javascript-data-structures-and-algorithms?ac=1&from_search=true&qid=LiljsiRjhE&rank=1"
-  },
+  "": {
+      "title": "",
+      "link": "",
+      "site": ""
+    },
+  "16/09/2019": {
+      "title": "Read 'You don't know JS: Up & Going'",
+      "link": "https://www.goodreads.com/book/show/25136217-you-don-t-know-js",
+      "site": "Goodreads"
+    },
+    "07/09/2019": {
+        "title": "TOP - Test Driven Development",
+        "link": "https://github.com/solodov-dev/top-js-tdd",
+        "site": "GitHub"
+      },
+  "06/09/2019": {
+      "title": "RegEx tutorial",
+      "link": "https://regexone.com/",
+      "site": "RegexOne"
+    },
+  "05/09/2019": {
+      "title": "TOP - Weather App",
+      "link": "https://github.com/solodov-dev/drops",
+      "site": "GitHub"
+    },
+  "02/09/2019": {
+      "title": "TOP - Vue Todo App",
+      "link": "https://github.com/solodov-dev/top-todo-vue",
+      "site": "GitHub"
+    },
+  "31/08/2019": {
+      "title": "Started Vue.js course",
+      "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/",
+      "site": "Udemy"
+    },
+  "26/08/2019": {
+      "title": "Read 'Learn enough command line to be dangerous'",
+      "link": "https://www.learnenough.com/command-line-tutorial/basics",
+      "site": "learnenough.com"
+    },
+  "24/08/2019": {
+      "title": "TOP - Todo App",
+      "link": "https://github.com/solodov-dev/top-do",
+      "site": "GitHub"
+    },
+  "03/08/2019 - 19/08/2019": {
+      "title": "CS50 course",
+      "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science",
+      "site": "EdX"
+    },
+  "02/08/2019": {
+      "title": "TOP - Restaurant page",
+      "link": "https://github.com/solodov-dev/top-restaurant",
+      "site": "GitHub"
+    },
+  "31/07/2019": {
+      "title": "TOP - Tic Tac Toe",
+      "link": "https://github.com/solodov-dev/top-tic-tac-toe",
+      "site": "GitHub"
+    },
+  "27/07/2019": {
+      "title": "TOP - Library",
+      "link": "https://github.com/solodov-dev/top-library",
+      "site": "GitHub"
+    },
+  "26/07/2019": {
+      "title": "TOP - Calculator",
+      "link": "https://github.com/solodov-dev/top-calculator",
+      "site": "GitHub"
+    },
+  "25/07/2019": {
+      "title": "TOP - Etch-a-Sketch",
+      "link": "https://github.com/solodov-dev/top-etch-a-sketch",
+      "site": "GitHub"
+    },
   "23/07/2019": {
-    "title": "The Odin Project. Rock Paper Scissors.",
-    "link": "https://github.com/solodov-dev/top-rock-paper-scissors"
+      "title": "TOP - Rock-Paper-Scissors",
+      "link": "https://github.com/solodov-dev/top-rock-paper-scissors",
+      "site": "GitHub"
+    },
+  "15/07/2019": {
+      "title": "Read 'Learning JS algorithms and data structures'",
+      "link": "https://www.goodreads.com/book/show/39392565-learning-javascript-data-structures-and-algorithms?ac=1&from_search=true&qid=xTRlBpdlbV&rank=5",
+      "site": "Goodreads"
+    },
+  "09/07/2019": {
+      "title": "Started writing weblog",
+      "link": "https://solodov.dev",
+      "site": "My portfolio"
+    },
+  "08/07/2019": {
+      "title": "The Odin Project - Google Homepage",
+      "link": "https://github.com/solodov-dev/top-google-homepage",
+      "site": "GitHub"
+    },
+  "30/06/2019": {
+    "title": "Read 'Learning Web Design'",
+    "link": "https://www.goodreads.com/book/show/40530834-learning-web-design?ac=1&from_search=true&qid=zqg6lUrReu&rank=2",
+    "site": "Goodreads"
   },
-  "25/07/2919": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
+  "25/06/2019": {
+    "title": "Python internet radio listener.",
+    "link": "https://github.com/solodov-dev/cli-internet-radio",
+    "site": "GitHub"
   },
-  "25/07/2819": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2719": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2619": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2519": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2419": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2319": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2039": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2049": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2059": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2089": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2009": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
-  },
-  "25/07/2079": {
-    "title": "The Odin Project. Etch a Sketch.",
-    "link": "https://github.com/solodov-dev/top-etch-a-sketch"
+  "05/06/2019": {
+    "title": "Read 'Automate the boring stuff with Python'.",
+    "link": "https://www.goodreads.com/book/show/22514127-automate-the-boring-stuff-with-python?ac=1&from_search=true&qid=3lcbyn8g7l&rank=3",
+    "site": "Goodreads"
   }
 }
